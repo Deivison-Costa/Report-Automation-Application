@@ -7,24 +7,24 @@
 
 ## ImportModule
 
-- Purpose: Which allows users to import raw data from external files, such as CSV files or other Excel sheets, into the active Excel workbook.
-- How to Use: Run the procedure to open the file selection dialog and choose the data file to import. The data will be copied to the active sheet.
+- **Purpose**: Which allows users to import raw data from external files, such as CSV files or other Excel sheets, into the active Excel workbook.
+- **How to Use**: Run the procedure to open the file selection dialog and choose the data file to import. The data will be copied to the active sheet.
 ## FormatCleanerModule
 
-- Purpose: Which is responsible for cleaning the imported data by removing duplicates and applying necessary formatting.
-- How to Use: Execute the procedure to clean and format the imported data.
+- **Purpose**: Which is responsible for cleaning the imported data by removing duplicates and applying necessary formatting.
+- **How to Use**: Execute the procedure to clean and format the imported data.
 ## AnalysisModule
 
-- Purpose: The module houses various procedures to perform specific calculations and analyses on the imported data. Functions like summing values, calculating averages, and finding min/max values are implemented here.
-- How to Use: Call the relevant procedures (e.g., "CalculateSum," "CalculateAverage") to perform specific data analyses.
+- **Purpose**: The module houses various procedures to perform specific calculations and analyses on the imported data. Functions like summing values, calculating averages, and finding min/max values are implemented here.
+- **How to Use**: Call the relevant procedures (e.g., "CalculateSum," "CalculateAverage") to perform specific data analyses.
 ## GraphicsModule
 
-- Purpose: Which automatically generates dynamic charts that update as the raw data is updated. This facilitates better data visualization.
-- How to Use: Execute the "CreateDynamicCharts" procedure to create and insert dynamic charts into the report.
+- **Purpose**: Which automatically generates dynamic charts that update as the raw data is updated. This facilitates better data visualization.
+- **How to Use**: Execute the "CreateDynamicCharts" procedure to create and insert dynamic charts into the report.
 ## ReportModule
 
-- Purpose: Responsible for automatically generating a formatted report with the results of data analyses and the charts produced.
-- How to Use: Run the "GenerateReport" procedure to generate the report with the relevant data and charts.
+- **Purpose**: Responsible for automatically generating a formatted report with the results of data analyses and the charts produced.
+- **How to Use**: Run the "GenerateReport" procedure to generate the report with the relevant data and charts.
 
 ## MainModule
 - The Automated Excel Reports application aims to automate the process of creating and updating reports in Excel. 
